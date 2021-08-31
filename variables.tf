@@ -1,18 +1,34 @@
-variable "public_key_file" {}
+variable "public_key_file" {
 
-variable "region" {}
+}
 
-variable "name" {}
+variable "region" {
 
-variable "path" {}
+}
 
-variable "vpc_availability_zones" {}
+variable "name" {
 
-variable "vpc_cidr" {}
+}
 
-variable "vpc_name" {}
+variable "path" {
 
-variable "instance_name" {}
+}
+
+variable "vpc_availability_zones" {
+
+}
+
+variable "vpc_cidr" {
+
+}
+
+variable "vpc_name" {
+
+}
+
+variable "instance_name" {
+    
+}
 
 variable "instance_type" {}
 
